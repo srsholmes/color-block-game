@@ -1,0 +1,18 @@
+{
+  "name": "front-end-dev-test",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "open test/index.html",
+    "postinstall": "cp node_modules/gulp-traceur/node_modules/traceur/bin/traceur-runtime.js ./dist/javascript"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-connect": "^2.2.0",
+    "gulp-less": "^3.0.1",
+    "gulp-traceur": "^0.17.0"
+  }
+}
