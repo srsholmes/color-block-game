@@ -2,8 +2,8 @@
 /*global  */
 
 const COLOURS = ['red', 'green', 'blue', 'yellow'];
-const MAX_X = 10;
-const MAX_Y = 10;
+const MAX_X = 100;
+const MAX_Y = 100;
 
 class Block {
     constructor (x, y) {
